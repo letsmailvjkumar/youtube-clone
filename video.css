@@ -1,0 +1,11 @@
+iframe{
+    top:10%;
+    width: 50%;
+    left: 5%;
+    position: fixed;
+}
+aside{
+    position: relative;
+    float: right;
+    padding-top: 6%;
+}

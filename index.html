@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>youtube-clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="./style.css">
+    <style>
+        body{
+      font-family: "Inter", sans-serif;
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <div class="icons">
+          <img src="./images/icon.png" alt="">
+        </div>
+        <div class="logo">
+          <img src="./images/Logo.png" alt="">
+        </div>
+      </div>
+      <div class="center">
+        <input type="search" id="search-input" placeholder="Search">
+        <button id="search-button" onclick="searchVideos()"><img src="./images/SearchBox-Button.png" alt="SearchBox-Button"></button>
+        <img src="./images/miclogo.png" alt="mic-button">
+      </div>
+      <div class="right">
+        <img src="./images/Create.png" alt="">
+        <img src="./images/apps.png" alt="">
+        <img src="./images/Notifications.png" alt="">
+        <img src="./images/Profile.png" alt="">
+      </div>
+    </nav>
+    <div id="content">
+   <!-- <aside>
+      <div class="side-container">
+        <div>
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/Vector.png" alt="">
+              <p>Home</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/explore.png" alt="">
+              <p>Explore</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/subscriptions.png" alt="">
+              <p>Subscriptions</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/library.png" alt="">
+              <p>Library</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/history.png" alt="">
+              <p>History</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/your-videos.png" alt="">
+              <p>Your Videos</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/watch-later.png" alt="">
+              <p>Watch Later</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/liked.png" alt="">
+              <p>Liked Videos</p>
+            </div>
+          </a>
+        </div>
+        <div>
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/show-more.png" alt="">
+              <p>Show More</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </aside>
+-->
+    <main>
+      <div id="videos-container">Loading...</div>
+    </main>
+  </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

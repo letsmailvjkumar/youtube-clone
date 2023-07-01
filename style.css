@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(33, 33, 33);
+  overflow-x: hidden;
+  margin: 0 auto; /* Center the body content */
+  max-width: 1200px; /* Adjust the maximum width as per your preference */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.center,
+input {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  overflow: hidden;
+  color: white;
+  font-size: 1rem;
+}
+
+.center input {
+  background-color: rgb(18, 18, 18);
+  width: 100%;
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+.center input:focus {
+  outline: none;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+aside {
+  width: 200px;
+  padding: 0 0px 10px 15px;
+}
+
+.side-container {
+  margin-top: 30px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.sidebar-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.sidebar-item p {
+  margin: 0;
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+#content{
+  display: flex;
+  flex-direction: column;
+}
+#videos-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+.video-info{
+  width: 250px;
+  
+}
+.video-image img{
+  width: 250px;
+  
+}
+.video-title{
+  width:250px
+}
+button{
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment-content {
+  display: flex;
+  
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.author-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-text {
+  margin: 0;
+}
+
+
+
