@@ -2,13 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
 }
 
 body {
-  background-color: rgb(33, 33, 33);
+  height: 100%;
+  width: 100%;
   overflow-x: hidden;
-  margin: 0 auto; /* Center the body content */
-  max-width: 1200px; /* Adjust the maximum width as per your preference */
+  background-color:  rgb(15, 15, 15);
+  overflow: hidden;
 }
 
 nav {
@@ -32,7 +36,12 @@ nav {
   display: flex;
   justify-content: center;
 }
-
+hr{
+  width: 100%;
+}
+.signupBox{
+  margin-top: 10px;
+}
 .center,
 input {
   display: flex;
@@ -65,8 +74,15 @@ input {
 }
 
 aside {
-  width: 200px;
-  padding: 0 0px 10px 15px;
+  width: 250px;
+  height: 92.5vh;
+  padding: 0px 0px 30px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+ 
 }
 
 .side-container {
@@ -95,11 +111,61 @@ aside a {
   color: white;
   font-size: large;
 }
+.signInbtn {
+  padding: 0px 10px;
+  min-width: 70px;
+  height: 30px;
+  color: rgb(0, 149, 255);
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: rgb(27, 27, 27);
+  border: 2px solid rgb(0, 149, 255);
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+main{
+  width: 83%;
+  padding: 0px 35px;
+  height: 200vh;
+}
 #content{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.catagoryRow{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  overflow-x: scroll;
+  gap: 10px;
+  position: sticky;
+  top: 0px;
+  padding: 0px 20px;
+}
+
+.catagoryRow::-webkit-scrollbar{
+  visibility: hidden;
+}
+.catagoryRow a{
+  padding: 5px 10px;
+  border-radius: 8px;
+  text-decoration-line: none;
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+.catagoryRow a:hover{
+  background-color: aliceblue;
+  color: rgb(24, 24, 24);
 }
 #videos-container {
+  width: 100%;
+  height: 45%;
+  overflow: scroll !important;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -157,6 +223,31 @@ button{
 .comment-text {
   margin: 0;
 }
-
-
+.channel-avatar img{
+  width: 30px;
+  border-radius: 50%;
+}
+.channel-number{
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+}
+.channel-info{
+  display: flex;
+  margin: 5px;
+}
+.video-title{
+  padding-left: 10px;
+}
+.channel-description{
+  padding-left:45px;
+  padding-top:5px;
+}
+.video-time{
+  padding-left:5px;
+}
+.side-content a:hover{
+  background-color: white;
+ color: aqua;
+}
 

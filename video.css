@@ -1,11 +1,34 @@
 iframe{
     top:10%;
     width: 50%;
-    left: 5%;
+    left: 20%;
+    top:20%;
+    height: 50%;
     position: fixed;
 }
-aside{
-    position: relative;
-    float: right;
-    padding-top: 6%;
+.video-container{
+    display: flex;
+    flex-direction: column;
+}
+.comment-content{
+    color: white;
+}
+#comments{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 70%;
+  left: 20%;
+  width: 50%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.8); /* Example background color */
+  color: white; /* Example text color for comments */
+  overflow-y: auto; 
+}
+.comment{
+    border-bottom: 1px solid;
+}
+.comment img{
+    width:30px;
+    height: 30px;
 }

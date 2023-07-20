@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Rubik:wght@300;400;500;600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    background-color:  rgb(15, 15, 15);
+}
+section{
+    height: 95%;
+    width: 100%;
+}
+nav{
+    padding: 0px 25px;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    position: sticky;
+    top: 0%;
+    justify-content: space-between;
+}
+.left{
+    width: 130px;
+    color: aliceblue;
+    display: flex;
+}
+.right{
+    display: flex;
+    width: 130px;
+}
+.middle{
+    width: 40%;
+    display: flex;
+    align-items: center;
+   
+}
+
+aside{
+    width: 270px;
+    height: 92.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+#search{
+    width: 90%;
+    height: 40px;
+    margin: 0px;
+    color: aliceblue;
+    border-radius: 20px 0px 0px 20px;
+    padding: 0px 10px;
+    transform: translateX(5px);
+    border-right: none;
+    background-color:  rgb(15, 15, 15);
+    border-left: 1px solid rgb(64, 64, 64);
+    border-top: 1px solid rgb(64, 64, 64);
+    border-bottom: 1px solid rgb(64, 64, 64);
+    outline: none;
+   
+}
+.logoBox>img{
+    width: 90px;
+   }
+#searchBtn{
+    width: 70px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 0px 20px 20px 0px;
+    background-color:  rgb(64, 64, 64);
+    border-left:none;
+    border-top: 1px solid rgb(64, 64, 64);
+    border-right: 1px solid rgb(64, 64, 64);
+    border-bottom: 1px solid rgb(64, 64, 64);
+    color: aliceblue;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 10px;
+
+}
+.mic{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color:  rgb(27, 27, 27);
+}
+.mic:hover{
+    background-color: rgb(64, 64, 64);;
+}
+aside::-webkit-scrollbar{
+    visibility: hidden;
+}
+    
+hr{
+    width: 100%;
+    border-bottom: 1px solid rgb(42, 42, 42);
+    margin: 15px 0px;
+}
+main{
+    width: 83%;
+    min-height:200vh;
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    padding: 0px 35px;
+    
+ 
+    
+}
+
+.catagoryRow{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    overflow-x: scroll;
+    gap: 10px;
+    position: sticky;
+    top: 0px;
+    padding: 0px 20px;
+}
+.catagoryRow::-webkit-scrollbar{
+    visibility: hidden;
+}
+#all{
+    background-color: aliceblue;
+    color: rgb(24, 24, 24);
+}
+.catagoryRow a{
+    padding: 5px 10px ;
+    border-radius: 8px;
+    background-color:  rgb(27, 27, 27);
+    color: aliceblue;
+    transition: .3s;
+}
+.catagoryRow a:hover{
+    background-color: rgb(45, 45, 45);
+}
+
+
+section{
+    display: flex;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 45px;
+    width: 85%;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border:none;
+    transition: .3s;
+}
+.link a{
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    transition: .3s;
+    color: aliceblue;
+}
+.link:hover{
+    background-color: rgb(27, 27, 27);
+}
+.signupBox{
+    padding: 0px 10px;
+}
+.signupBox a{
+    display: block;
+    color: aliceblue;
+}
+.signInbtn{
+    padding: 0px 10px;
+   min-width: 70px;
+    height: 30px;
+    color: rgb(0, 149, 255);
+    border-radius: 20px;
+    margin-left:20px;
+    background-color:rgb(27, 27, 27);
+    border: 2px solid rgb(0, 149, 255);
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.signInbtn:hover{
+    background-color:rgba(0, 149, 255, 0.215);
+}
+.bannerContainer{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    background-color: transparent;
+}
+.banner{
+    
+    height: 32vh;
+    width: 100%;
+
+}
+#videoContainer{
+    width: 100%;
+    height: 45%;
+    overflow: scroll !important;
+    padding: 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+}
+
+
+
+/* video card */
+.videoCard{
+    width: 310px;
+    margin: 20px 0px;
+   
+
+}
+
+.thumbnail{
+    width: 100%;
+    border-radius: 15px;
+    height: 190px;
+    cursor: pointer;
+}
+.videoInfo{
+    display: flex;
+}
+#title{
+    cursor: pointer;
+}
+.info span,.channelName{
+   
+    font-size: 13px;
+    color:rgb(154, 154, 154);
+    line-height: 10px;
+}
+
+#title{
+   
+    width:95%;
+
+}
+.channel{
+    font-size: 15px;
+    color:rgb(203, 203, 203);
+}
+.card span{
+    
+    font-size: 14px;
+    color:rgb(177, 177, 177);
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1025px) {
+    aside{
+        display: none;
+    }
+    main{
+        width: 100%;
+    }
+    #videoContainer{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .bannerContainer{
+        height: 200px;
+    }
+    .banner{
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    aside{
+        display: none;
+    }
+
+    #videoContainer{
+        width: 100%;
+        padding: 0px;
+    }
+    .videoCard{
+        width: 95%;
+    }
+    main{
+        width: 100%;
+        padding: 5px;
+    }
+    .bannerContainer{
+        height: 90px;
+        padding: 0px 10px;
+    }
+    .info{
+        width: 80%;
+    }
+    .banner{
+        height: 100%;
+    }
+    #title{
+        width: 95%;
+    }
+    .right{
+        display: none;
+    }
+   .middle{
+    width: 70%;
+    height: 35px;
+   }
+   .left{
+    width: 30%;
+    margin-right: 10px;
+   }
+   .logoBox>img{
+    width: 70px;
+   }
+   .hamburger>img{
+    margin-right: 10px;
+   }
+}

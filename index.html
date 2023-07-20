@@ -10,11 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"/>
       <link rel="stylesheet" href="./style.css">
-    <style>
-        body{
-      font-family: "Inter", sans-serif;
-        }
-    </style>
   </head>
   <body>
     <nav>
@@ -28,7 +23,7 @@
       </div>
       <div class="center">
         <input type="search" id="search-input" placeholder="Search">
-        <button id="search-button" onclick="searchVideos()"><img src="./images/SearchBox-Button.png" alt="SearchBox-Button"></button>
+        <button id="search-button" onclick="searchData()"><img src="./images/SearchBox-Button.png" alt="SearchBox-Button"></button>
         <img src="./images/miclogo.png" alt="mic-button">
       </div>
       <div class="right">
@@ -39,9 +34,9 @@
       </div>
     </nav>
     <div id="content">
-   <!-- <aside>
+    <aside>
       <div class="side-container">
-        <div>
+        <div class="side-content">
           <a href="#">
             <div class="sidebar-item">
               <img src="./images/Vector.png" alt="">
@@ -49,7 +44,7 @@
             </div>
           </a>
         </div>
-        <div>
+        <div class="side-content">
           <a href="#">
             <div class="sidebar-item">
               <img src="./images/explore.png" alt="">
@@ -57,7 +52,7 @@
             </div>
           </a>
         </div>
-        <div>
+        <div class="side-content">
           <a href="#">
             <div class="sidebar-item">
               <img src="./images/subscriptions.png" alt="">
@@ -65,7 +60,7 @@
             </div>
           </a>
         </div>
-        <div>
+        <div class="side-content">
           <a href="#">
             <div class="sidebar-item">
               <img src="./images/library.png" alt="">
@@ -73,7 +68,7 @@
             </div>
           </a>
         </div>
-        <div>
+        <div class="side-content">
           <a href="#">
             <div class="sidebar-item">
               <img src="./images/history.png" alt="">
@@ -81,7 +76,7 @@
             </div>
           </a>
         </div>
-        <div>
+        <div class="side-content">
           <a href="#">
             <div class="sidebar-item">
               <img src="./images/your-videos.png" alt="">
@@ -89,7 +84,7 @@
             </div>
           </a>
         </div>
-        <div>
+        <div class="side-content">
           <a href="#">
             <div class="sidebar-item">
               <img src="./images/watch-later.png" alt="">
@@ -97,7 +92,7 @@
             </div>
           </a>
         </div>
-        <div>
+        <div class="side-content">
           <a href="#">
             <div class="sidebar-item">
               <img src="./images/liked.png" alt="">
@@ -105,7 +100,70 @@
             </div>
           </a>
         </div>
-        <div>
+        <div class="side-content">
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/show-more.png" alt="">
+              <p>Show More</p>
+            </div>
+          </a>
+        </div>
+        <hr>
+            <div class="signupBox"><a href="#">Sign in to like videos, comment and subscribe.</a><button
+                 class="signInbtn"><img
+                style="width: 20px;height: 20px;margin-right: 5px; margin-top: 4px;"
+                src="./images/profileBlue.png" alt="...">Sign in</button>
+            </div>
+        <hr>
+        <div class="side-content">
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/show-more.png" alt="">
+              <p>Show More</p>
+            </div>
+          </a>
+        </div>
+        <div class="side-content">
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/show-more.png" alt="">
+              <p>Show More</p>
+            </div>
+          </a>
+        </div>
+        <div class="side-content">
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/show-more.png" alt="">
+              <p>Show More</p>
+            </div>
+          </a>
+        </div>
+        <div class="side-content">
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/show-more.png" alt="">
+              <p>Show More</p>
+            </div>
+          </a>
+        </div>
+        <div class="side-content">
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/show-more.png" alt="">
+              <p>Show More</p>
+            </div>
+          </a>
+        </div>
+        <div class="side-content">
+          <a href="#">
+            <div class="sidebar-item">
+              <img src="./images/show-more.png" alt="">
+              <p>Show More</p>
+            </div>
+          </a>
+        </div>
+        <div class="side-content">
           <a href="#">
             <div class="sidebar-item">
               <img src="./images/show-more.png" alt="">
@@ -115,8 +173,28 @@
         </div>
       </div>
     </aside>
--->
+    
     <main>
+      <div class="catagoryRow">
+        <a id="all" href="#">All</a>
+        <a href="#">Live</a>
+        <a href="#">Comedy</a>
+        <a href="#">Science</a>
+        <a href="#">Trending</a>
+        <a href="#">Development</a>
+        <a href="#">Education</a>
+        <a href="#">NEWS</a>
+        <a href="#">fun</a>
+        <a href="#">Sports</a>
+        <a href="#">Kids</a>
+        <a href="#">Popular</a>
+        <a href="#">Khalsa</a>
+        <a href="#">Cricket</a>
+        <a href="#">Bollywood</a>
+        <a href="#">Gaming</a>
+        <a href="#">History</a>
+
+    </div>
       <div id="videos-container">Loading...</div>
     </main>
   </div>
